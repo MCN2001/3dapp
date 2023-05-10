@@ -1,0 +1,27 @@
+// fonts
+$font-mulish: "Mulish", sans-serif;
+
+// theme colors
+
+// light theme
+body[data-theme="light"] {
+  --white-color: #ffffff;
+  --black-color: #000000;
+}
+
+// dark theme
+body[data-theme="dark"] {
+  --white-color: #1c1c1c;
+  --black-color: #bbbbbb;
+}
+
+// colors
+$color-white: var(--white-color);
+$color-black: var(--black-color);
+
+$color-coc: #e73841;
+$color-sprite: #01c65b;
+$color-fanta: #ff8737;
+
+// easing
+$ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);

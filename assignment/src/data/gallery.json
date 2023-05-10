@@ -1,0 +1,96 @@
+{
+    "gallery" : [
+        {
+            "src": "gallery/c-1.webp",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/f-1.jpg",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/s-1.jpg",
+            "type": "sprite"
+        },
+        {
+            "src": "gallery/c-2.jpg",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/f-2.webp",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/s-2.webp",
+            "type": "sprite"
+        },
+        {
+            "src": "gallery/c-3.webp",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/c-4.jpg",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/s-3.jpg",
+            "type": "sprite"
+        },
+        {
+            "src": "gallery/f-3.jpg",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/f-4.webp",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/s-4.webp",
+            "type": "sprite"
+        },
+        {
+            "src": "gallery/s-5.jpg",
+            "type": "sprite"
+        },
+        {
+            "src": "gallery/s-6.jpg",
+            "type": "sprite"
+        },
+        {
+            "src": "gallery/f-5.jpg",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/c-5.webp",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/c-6.jpg",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/f-6.webp",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/f-7.jpg",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/f-7.jpg",
+            "type": "fanta"
+        },
+        {
+            "src": "gallery/c-7.jpg",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/c-8.webp",
+            "type": "coc"
+        },
+        {
+            "src": "gallery/c-9.webp",
+            "type": "coc"
+        }
+    ]
+}

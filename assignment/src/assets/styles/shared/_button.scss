@@ -1,0 +1,92 @@
+// links
+
+.hamb-link {
+  font-size: 10rem;
+  font-weight: 400;
+}
+
+.link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.4;
+  position: relative;
+
+  @media only screen and (max-width: 820px) {
+    font-size: 2rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    z-index: -1;
+    background: currentColor;
+    transform: scale(0);
+    transition: transform 0.7s $ease-out-expo;
+    transform-origin: right center;
+  }
+
+  &.active {
+    &::after {
+      transform-origin: left center;
+      transform: scale(1);
+    }
+
+    &:hover {
+      &::after {
+        transform-origin: right center;
+        transform: scale(0);
+      }
+    }
+  }
+
+  &:hover::after {
+    transform-origin: left center;
+    transform: scale(1);
+  }
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.bg-link {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 1.5rem 4rem;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: all 0.3s $ease-out-expo;
+
+  &[data-color="coc"] {
+    background-color: $color-coc;
+  }
+
+  &[data-color="sprite"] {
+    background-color: $color-sprite;
+  }
+
+  &[data-color="fanta"] {
+    background-color: $color-fanta;
+  }
+
+  &[data-color="black"] {
+    background-color: #000000;
+  }
+
+  &[data-color="light"] {
+    background-color: rgba($color: #000000, $alpha: 0.1);
+  }
+}
+
+body[data-theme="dark"] .bg-link {
+  &[data-color="light"] {
+    background-color: rgba($color: #ffffff, $alpha: 0.1) !important;
+  }
+}

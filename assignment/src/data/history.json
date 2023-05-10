@@ -1,0 +1,36 @@
+{
+    "history": [
+        {
+            "id": 1,
+            "name": "coc",
+            "title": "History of Coca Cola",
+            "subtitle": "Atlanta Beginnings",
+            "description" : "Coca-Cola history began in 1886 when the curiosity of an Atlanta pharmacist, Dr. John S. Pemberton, led him to create a distinctive tasting soft drink that could be sold at soda fountains. He created a flavored syrup, took it to his neighborhood pharmacy, where it was mixed with carbonated water and deemed “excellent” by those who sampled it. Dr. Pemberton’s partner and bookkeeper, Frank M. Robinson, is credited with naming the beverage “CocaCola” as well as designing the trademarked, distinct script, still used today.",
+            "link": "http://www.coca-colacompany.com/history/the-history-of-coca-cola"
+        },
+        {
+            "id": 2,
+            "name": "fanta",
+            "title": "Fanta — Fanta Orange",
+            "subtitle": "First introduced in 1940",
+            "description": "Fanta is an American-owned German brand of fruit-flavored carbonated soft drinks created by Coca-Cola Deutschland under the leadership of German businessman Max Keith. There are more than 200 flavors worldwide.",
+            "link": "https://en.wikipedia.org/wiki/Fanta"
+        },
+        {
+            "id": 3,
+            "name": "sprite",
+            "title": "Sprite — Klare Zitrone",
+            "subtitle": "First introduced in 1961",
+            "description": "Sprite is a colorless, lemon and lime-flavored soft drink created by The Coca-Cola Company. It was first developed in West Germany in 1959 as Fanta Klare Zitrone and was introduced in the United States under the current brand name Sprite in 1961 as a competitor to 7 Up. Sprite advertising often makes use of the portmanteau word lymon, a combination of the words lemon and lime. Sprite's slogan is \"Obey Your Thirst\". In the United States, Sprite is the leading lemon-lime flavored soft drink, according to the Coca-Cola Company's website.",
+            "link": "https://en.wikipedia.org/wiki/Sprite_(soft_drink)"
+        },
+        {
+            "id": 4,
+            "name": "coc",
+            "title": "History of Coca Cola",
+            "subtitle": "Atlanta Beginnings",
+            "description" : "Coca-Cola history began in 1886 when the curiosity of an Atlanta pharmacist, Dr. John S. Pemberton, led him to create a distinctive tasting soft drink that could be sold at soda fountains. He created a flavored syrup, took it to his neighborhood pharmacy, where it was mixed with carbonated water and deemed “excellent” by those who sampled it. Dr. Pemberton’s partner and bookkeeper, Frank M. Robinson, is credited with naming the beverage “CocaCola” as well as designing the trademarked, distinct script, still used today.",
+            "link": "http://www.coca-colacompany.com/history/the-history-of-coca-cola"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "models": [
+        {
+            "model": {
+                "id": 1,
+                "name": "coc-can.glb",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.6,
+                    "y": 0.6,
+                    "z": 0.6
+                },
+                "light": {
+                    "color" : "#ffffff",
+                    "intensity" : 1,
+                    "position" : {
+                        "x": 0,
+                        "y": 0,
+                        "z": 100
+                    }
+                }
+            }
+        },
+        {
+            "model": {
+                "id": 2,
+                "name": "fanta-can.glb",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4,
+                    "z": 0.4
+                },
+                "light": {
+                    "color" : "#ffffff",
+                    "intensity" : 1,
+                    "position" : {
+                        "x": 0,
+                        "y": 0,
+                        "z": 100
+                    }
+                }
+            }
+        },
+        {
+            "model": {
+                "id": 3,
+                "name": "sprite-can.glb",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.4,
+                    "y": 0.4,
+                    "z": 0.4
+                },
+                "light": {
+                    "color" : "#ffffff",
+                    "intensity" : 1,
+                    "position" : {
+                        "x": 0,
+                        "y": 0,
+                        "z": 100
+                    }
+                }
+            }
+        },
+        {
+            "model": {
+                "id": 4,
+                "name": "coc-bottle.glb",
+                "position": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "scale": {
+                    "x": 0.8,
+                    "y": 0.8,
+                    "z": 0.8
+                },
+                "light": {
+                    "color" : "#ffffff",
+                    "intensity" : 1,
+                    "position" : {
+                        "x": 0,
+                        "y": 0,
+                        "z": 100
+                    }
+                }
+            }
+        }
+    ]
+}

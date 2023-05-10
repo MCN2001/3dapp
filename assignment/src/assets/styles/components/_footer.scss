@@ -1,0 +1,29 @@
+footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  background: rgba($color: #000000, $alpha: 0.05);
+
+  .container {
+    @extend %flex-column-center-center;
+    gap: 2rem;
+    padding: 0 0 2rem 0;
+
+    .logo {
+      img {
+        width: 50rem;
+      }
+    }
+
+    .social-links {
+      @extend %flex-row-center-between;
+      gap: 2rem;
+    }
+  }
+}
+
+body[data-theme="dark"] {
+  footer {
+    background: rgba($color: #ffffff, $alpha: 0.05) !important;
+  }
+}

@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+  overflow: hidden;
+  overscroll-behavior: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  font-synthesis: none;
+  font-size: calc(100vw / 1920 * 10);
+
+  @media only screen and (max-width: 812px) {
+    font-size: calc(100vw / 812 * 10) !important;
+  }
+}
+
+body {
+  font-family: $font-mulish;
+  font-weight: 400;
+  font-display: swap;
+  overscroll-behavior: none;
+  background: $color-white;
+  color: $color-black;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  user-select: none;
+  outline: none;
+  -webkit-touch-callout: none;
+}
+
+:focus {
+  outline: none;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  pointer-events: auto;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  border-radius: none;
+  color: inherit;
+  font: inherit;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+input,
+textarea {
+  appearance: none;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  pointer-events: auto;
+}
+
+// external utilities
+
+.container {
+  @extend %container;
+  position: relative;
+  color: $color-black;
+}
+
+// custom scrollbar
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba($color: #000000, $alpha: 0.2);
+  border-radius: 10px;
+}
+
+body[data-theme="dark"] {
+  ::-webkit-scrollbar-thumb {
+    background: rgba($color: #ffffff, $alpha: 0.2);
+  }
+
+  ::-webkit-scrollbar {
+    background: #1c1c1c;
+  }
+}

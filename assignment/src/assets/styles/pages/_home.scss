@@ -1,0 +1,58 @@
+.home {
+  .banner {
+    .container {
+      height: 100vh;
+      @extend %flex-row-center-between;
+      align-items: stretch;
+      padding: 15rem 0 5rem 0;
+
+      @media only screen and (max-width: 820px) {
+        gap: 5rem;
+        height: auto;
+      }
+
+      .home-card {
+        flex: 0 0 30%;
+        max-width: 30%;
+        width: 100%;
+        height: auto;
+        @extend %flex-column-start-start;
+        gap: 2rem;
+        border-radius: 10px;
+        padding: 2rem;
+        background: $color-white;
+        border: 1px solid rgba($color: #000000, $alpha: 0.1);
+
+        @media only screen and (max-width: 820px) {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+
+        figure {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          border-radius: 10px;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        &-content {
+          width: 100%;
+          height: auto;
+          @extend %flex-column-start-start;
+          gap: 1rem;
+        }
+      }
+    }
+  }
+}
+
+body[data-theme="dark"] {
+  .home-card {
+    border: 1px solid rgba($color: #ffffff, $alpha: 0.1) !important;
+  }
+}
